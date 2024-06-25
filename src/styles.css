@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; }
+
+
+h3 {
+    background-color: black; 
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+    font-size: 5vw;
+  }
+  
+  app-header-ngquocth h3, app-footer-ngquocth h3 {
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+    font-size: 5vw;
+  }
+
+
+  table 
+{
+    border: thin solid black;
+    width: 100%;
+    font-size: 3vw;
+}
+
+tr:nth-child(even) 
+{
+    background-color: lightgray;
+    border: thin solid black;
+}
+
+td 
+{
+    border: thin solid black;
+}
+
+.title 
+{
+    font-weight: bold;
+    text-align: center;
+    color: bisque;
+    font-size: 5vw;
+}
+
+
+

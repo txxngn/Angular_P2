@@ -1,0 +1,35 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<app-header-ngquocth [ngquocthMyData] ="ngquocthPersonal"></app-header-ngquocth>
+
+
+
+<mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4" [ngStyle]="{textAlign: 'center'}">
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="book"></mat-icon>
+      My Book List - Thai Nguyen
+    </ng-template>
+    <app-books-ngquocth [myBooks991720991] = "ngquocthBooks"></app-books-ngquocth>
+    
+
+  </mat-tab>
+
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="school"></mat-icon>
+      Campus Info - Thai Nguyen
+    </ng-template>
+    <app-campus-ngquocth [campusData991720991] = "ngquocthCampus"></app-campus-ngquocth>
+    
+  </mat-tab>
+
+
+
+</mat-tab-group>
+
+
+<app-footer-ngquocth [ngquocthMyData] ="ngquocthPersonal"></app-footer-ngquocth>

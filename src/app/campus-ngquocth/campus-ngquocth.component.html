@@ -1,0 +1,24 @@
+<h3 [ngStyle]="{'text-align': 'center', 'background-color': 'bisque', color: 'black'}">Sheridan College – Select a Campus to View Address</h3>
+
+
+<mat-form-field>
+    <mat-label> Choose A Campus To Display </mat-label>
+
+    <mat-select [(value)]="campusName" (selectionChange)="buildArray(campusName)">
+        <mat-option>None</mat-option>
+        <mat-option value="Davis">Davis</mat-option>
+        <mat-option value="HMC">HMC</mat-option>
+        <mat-option value="Trafalgar">Trafalgar</mat-option>
+    </mat-select>
+</mat-form-field>
+<hr>
+
+
+
+<mat-list>
+    <mat-list-item *ngFor="let x of campusArray">
+        <span matListItemTitle>{{x.campus}} </span>
+        <span matListItemLine>{{x.street}} </span>
+        <span matListItemLine>{{x.city}} </span>
+    </mat-list-item>
+</mat-list>

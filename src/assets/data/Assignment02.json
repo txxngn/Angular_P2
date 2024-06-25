@@ -1,0 +1,21 @@
+{
+	"a2Personal" : {
+		"myFullName" : "Thai Nguyen",
+		"sheridanID" : "991720991",
+		"sheridanLogin" : "ngquocth@shernet.sheridancollege.ca",
+		"sheridanProgram" : "Software Development and Network Engineering",
+		"sheridanEmail" : "ngquocth@sheridancollege.ca"
+	},	
+	"myBooks" : [
+		{"authorName" : "J. K. Rowling", "bookTitle" : "Harry Potter and the Sorcerer's Stone", "published" : 1997},
+		{"authorName" : "Michael Crichton", "bookTitle" : "Jurassic Park", "published" : 1990},
+		{"authorName" : "John Ronald Reuel Tolkien", "bookTitle" : "The Hobbit", "published" : 1937},
+		{"authorName" : "Frank Herbert", "bookTitle" : "Dune", "published" : 1965},
+		{"authorName" : "Suzanne Collins", "bookTitle" : "The Hunger Games", "published" : 2008}	
+	],
+	"campusData" : [
+		{"campus" : "Davis", "street" : "7899 McLaughlin Blvd", "city" : "Brampton"},
+		{"campus" : "HMC", "street" : "4180 Duke of York Blvd", "city" : "Mississauga"},
+		{"campus" : "Trafalgar", "street" : "1430 Trafalgar Road", "city" : "Oakville"}
+	]
+}
